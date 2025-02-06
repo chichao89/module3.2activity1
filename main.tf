@@ -24,9 +24,9 @@ resource "aws_s3_bucket" "s3_tf" {
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
-      version = "~> 1.2"  
+      source  = "hashicorp/aws"
+      version = "~> 1.2"
 
     }
   }
-} 
+}
